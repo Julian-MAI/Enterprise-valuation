@@ -1,0 +1,29 @@
+# 行业分类配置
+industries:
+  制造业:
+    keywords: [制造, 工业, 生产, 科技, 电子, 机械]
+    recommended_method: [dcf, relative_pe, relative_ps]
+  信息技术:
+    keywords: [软件, 互联网, IT, 通信, 计算机, 信息]
+    recommended_method: [dcf, relative_ps, comps]
+  金融业:
+    keywords: [银行, 证券, 保险, 金融, 信托]
+    recommended_method: [relative_pb, dcf]
+  房地产:
+    keywords: [地产, 房地产, 置业, 建筑]
+    recommended_method: [relative_pb, asset_based]
+  零售业:
+    keywords: [零售, 商贸, 商业, 百货, 超市]
+    recommended_method: [dcf, relative_pe]
+  能源:
+    keywords: [能源, 电力, 石油, 煤炭, 新能源]
+    recommended_method: [dcf, relative_pe]
+  医药生物:
+    keywords: [医药, 生物, 医疗, 制药, 健康]
+    recommended_method: [dcf, relative_pe]
+  其他:
+    keywords: []
+    recommended_method: [dcf, relative_pe]
+
+# 默认行业
+default_industry: 其他
